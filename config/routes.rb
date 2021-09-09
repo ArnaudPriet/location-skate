@@ -6,4 +6,5 @@ Rails.application.routes.draw do
     resources :rentings
   end
   resources :users, only: :show
+  resources :chatrooms, only: :show
 end
